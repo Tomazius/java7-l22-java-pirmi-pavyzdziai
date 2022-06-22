@@ -1,4 +1,4 @@
-public class uzduotys0622 {
+public class uzduotys0622u1 {
     public static void main(String[] args) {
 
     double a = 17.35;
