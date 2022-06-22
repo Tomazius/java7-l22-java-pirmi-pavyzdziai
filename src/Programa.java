@@ -9,14 +9,14 @@ public class Programa
 
     public static void main(String[] args)
     {
-        //duomenutipas kintamojoVardas = reiksme;
+        // Duomenutipas kintamojoVardas = reiksme;
 
         byte maziausias = 120;              // -127 iki 127
         short truputiDidesnis = 10000;      // nuo -32768 iki 32767
         int populiariausias = Integer.MAX_VALUE;   // nuo -2^31 iki +2^31
         long didziausias = Long.MAX_VALUE;  // nuo -2^63 iki 2^63
 
-        // isvesti tuos kintamuosisu i konsole:
+        // Isvesti tuos kintamuosisu i konsole:
 
         System.out.println("didziausias" + didziausias);
         System.out.println(populiariausias);
@@ -67,10 +67,12 @@ public class Programa
         // trecias konvertavimas naudojant funkcijas
         String tekstinisSkaicius = "2458";
         int konvertuotasSkaicius = Integer.parseInt(tekstinisSkaicius);
-        int konvertuotasShort = Short.parseInt(tekstinisSkaicius);
+        // int konvertuotasShort = Short.parseInt(tekstinisSkaicius);
 
-        System.out.println(konvertuotasShort + "didesnisShort =" + didesnisShort);
+        // System.out.println(konvertuotasShort + "didesnisShort =" + didesnisShort);
         System.out.println("mazesnis = " + mazesnis + "mazesnisShort =" + mazesnisShort);
+        System.out.println("mazesnis = " + mazesnis + "mazesnisShort =" + mazesnisShort);
+        System.out.println("mazesnis = " + mazesnis + "mazesnisShort =" + mazesnisShort); // control+d
 
 
 
